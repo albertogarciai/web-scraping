@@ -6,7 +6,7 @@
 
 Este repositorio contiene dos componentes principales orientados al análisis y obtención de datos meteorológicos históricos:
 
-- **`datos_climaticos_limpios_20250224_010353.csv`**:  
+- **`datos_climaticos.csv`**:  
   Un conjunto de datos limpios y estructurados con registros mensuales de temperaturas (media, mínima y máxima) y precipitaciones totales desde 1974 hasta la actualidad.
 
 - **`web_scraping.ipynb`**:  
@@ -40,8 +40,8 @@ Este repositorio contiene dos componentes principales orientados al análisis y 
 ### 📥 Clonar el repositorio
 
 ```bash
-git clone https://github.com/albertogarciai/clima-historico.git
-cd clima-historico
+git clone https://github.com/albertogarciai/web-scraping.git
+cd web-scraping
 ```
 
 ### 📦 Requisitos
@@ -70,12 +70,3 @@ print(df.head())
 ### 📈 Visualizar tendencias
 
 El notebook incluye ejemplos de cómo graficar las temperaturas y precipitaciones para analizar tendencias a largo plazo.
-
-## Licencia
-
-Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
-
-## Autor
-
-Creado con pasión por [albertogarciai](https://github.com/albertogarciai).  
-Si te resulta útil este repositorio, ¡no dudes en dar una ⭐️!
